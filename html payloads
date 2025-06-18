@@ -41,6 +41,9 @@ HTML Attribute Injection via Data URI
 
 
 
+
+
+
 Email Injection in Mailto Link
 
 <a href="mailto:?subject=Hello&body=<img src=x onerror=alert(1)>">Send Email</a>
