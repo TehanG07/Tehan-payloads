@@ -15,10 +15,11 @@
 15. Than Manual Hunting
 
 
-mkdir -p gf-output  # Create output folder if not exist
+mkdir -p gf-output  # Create output folder if it doesn't exist
 
 for pattern in ~/.gf/*.json; do
-  name=$(basename "$pattern" .json)
-  echo -e "\e[1;32m[+] Running pattern: $name\e[0m"
-  cat /home/kali/tools/liveparm.txt | gf "$name" > "gf-output/${name}.txt"
+    name=$(basename "$pattern" .json)
+    echo -e "\e[1;32m[+] Running pattern: $name\e[0m"
+    cat /home/kali/tools/sk.txt | gf "$name" > "gf-output/${name}.txt"
 done
+
