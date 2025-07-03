@@ -13,3 +13,12 @@
 13. Run BLC 
 14. Run Zip finder
 15. Than Manual Hunting
+
+
+mkdir -p gf-output  # Create output folder if not exist
+
+for pattern in ~/.gf/*.json; do
+  name=$(basename "$pattern" .json)
+  echo -e "\e[1;32m[+] Running pattern: $name\e[0m"
+  cat /home/kali/tools/liveparm.txt | gf "$name" > "gf-output/${name}.txt"
+done
